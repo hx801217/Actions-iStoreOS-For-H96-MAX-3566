@@ -8,5 +8,5 @@
 #===============================================
 
 # 修改版本为编译日期
-date_version=$(date +"%y%m%d%h")
+date_version=$(date +"%Y%m%d%H")
 sed -i "s/0000000000/${date_version}/g" version
